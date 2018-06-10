@@ -32,7 +32,7 @@
         <Button x:Name="_7Button" Content="7"
                 Margin="5"
                 Grid.Column="0"
-                Grid.Row="2"/>
+                Grid.Row="2" Click="_7Button_Click"/>
         <Button x:Name="percentButton" Content="%"
                 Margin="5"
                 Grid.Column="2"
