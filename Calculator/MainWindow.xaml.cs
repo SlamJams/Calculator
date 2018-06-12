@@ -175,6 +175,11 @@ namespace Calculator
 
         public static double Division(double number1, double number2)
         {
+            if(number2 == 0)
+            {
+                MessageBox.Show("Cannot divide by 0", "Invalid Operation", MessageBoxButton.OK, MessageBoxImage.Error);
+                return 0;
+            }
             return number1 / number2;
         }
     }
